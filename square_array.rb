@@ -4,8 +4,10 @@ def square_array(array)
   square_array = []
   counter = 0
 
-  numbers.each{|square| square**2}
-
+  numbers.each do |square|
+    square ** 2
+    square_array[counter] = square
+counter += 1
 
   end
 end
