@@ -1,9 +1,8 @@
 def square_array(array)
   # your code here
-  square = []
-
+counter = 0
   array.each do |i|
-    square << i**2
-
+    array[counter] << i**2
+counter+=1
   end
 end
